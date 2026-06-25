@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Timer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Timer</h1>
+    <div class="display" id="display">00:00:00</div>
+    <div class="input-row">
+      <div class="time-input">
+        <input type="number" id="hours" min="0" max="99" value="0" placeholder="0">
+        <label>h</label>
+      </div>
+      <span class="sep">:</span>
+      <div class="time-input">
+        <input type="number" id="minutes" min="0" max="59" value="0" placeholder="0">
+        <label>m</label>
+      </div>
+      <span class="sep">:</span>
+      <div class="time-input">
+        <input type="number" id="seconds" min="0" max="59" value="0" placeholder="0">
+        <label>s</label>
+      </div>
+    </div>
+    <div class="progress-ring-wrap">
+      <svg class="progress-ring" viewBox="0 0 120 120">
+        <circle class="ring-bg" cx="60" cy="60" r="54"/>
+        <circle class="ring-fg" id="ring" cx="60" cy="60" r="54"/>
+      </svg>
+    </div>
+    <div class="buttons">
+      <button class="btn btn-start" id="startBtn">スタート</button>
+      <button class="btn btn-pause hidden" id="pauseBtn">一時停止</button>
+      <button class="btn btn-reset" id="resetBtn">リセット</button>
+    </div>
+  </div>
+  <div id="done-overlay" class="overlay hidden">
+    <div class="overlay-box">
+      <div class="done-icon">✓</div>
+      <p>タイマー終了！</p>
+      <button class="btn btn-reset" id="closeBtn">閉じる</button>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
