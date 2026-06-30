@@ -11,12 +11,15 @@ AI活用ノウハウを軸に、note で月5万円（手取り）を目指すた
 |---|---|---|
 | `01_strategy.md` | 確定した全体戦略・数字シミュレーション・90日ロードマップ | あなた（方針確認用） |
 | `02_x-account-concept.md` | Xアカウントのコンセプト・ペルソナ・投稿ピラー・プロフ文 | あなた（X開設時） |
-| `03_x-posts-batch01.md` | コピペで投稿できるXポスト案 30本 | あなた（毎日コピペ投稿） |
-| `04_x-post-tracker.csv` | 投稿予定・実績・効果測定の管理シート | あなた（Googleスプレッドシートにインポート） |
+| `03_x-posts-batch01.md` / `batch02.md` | コピペで投稿できるXポスト案 各30本（計60本） | あなた（毎日コピペ投稿） |
+| `04_x-post-tracker.csv` | 投稿予定・実績・効果測定の管理シート（Drive版も作成済） | あなた |
 | `05_note-rules-compliance.md` | note規約・手数料の確認結果（手取り計算／AI記事の可否） | あなた（運用前に一読） |
+| `06_membership-design.md` | メンバーシップの特典設計・初月プラン・説明文テンプレ | あなた（メンバーシップ開設時） |
+| `07_launch-plan-30days.md` | 最初の30日のDay-by-Day実行スケジュール | あなた（毎日の指針） |
 | `pipeline/article-pipeline.md` | 記事の自動生成フローと運用手順 | Claude Code + あなた |
 | `pipeline/prompts/` | 工程別のプロンプトテンプレート集 | Claude Code |
-| `articles/sample-01_*.md` | 試作記事（無料パート＋有料パート） | 参考・たたき台 |
+| `articles/sample-01_*.md` | 試作記事（構成サンプル） | 参考 |
+| `articles/production-01〜04_*.md` | 投稿可能な本番記事（無料SEO3本＋有料980円1本） | そのまま投稿 |
 
 ---
 
